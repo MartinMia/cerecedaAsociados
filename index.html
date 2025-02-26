@@ -3,44 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Cereceda & Asociados</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/base.css">
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+        <nav class="navbar">
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a href="index.html">Inicio</a></li>
+                <li class="nav-item"><a href="nosotros.html">Nosotros</a></li>
+                <li class="nav-item"><a href="servicios.html">Servicios</a></li>
+                <li class="nav-item"><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <section id="inicio">
-        <h1>Cereceda & Asociados</h1>
-        <p>Impulsa tu crecimiento empresarial con consciencia: Asesoría sustentable para un éxito duradero</p>
-        <a href="contacto.html" class="btn">Contactanos</a>
+        <div class="card text-bg-dark">
+            <img class="card-img" src="css/IMG_2577.jpg" alt="pc" style="width:500px;height:600px;opacity: 0.5"> 
+            <div class="card-img-overlay">
+                <h1 class="card-title" style="display: flex; justify-content: center; align-items: center; height: 300px;"> Cereceda & Asociados</h1>
+                <h4 class="card-text"> Impulsa tu crecimiento empresarial con consciencia: Asesoría sustentable para un éxito duradero</h4>
+                <a href="contacto.html" class="btn btn-outline-secondary">Contactanos</a>
+            </div>
+        </div>
     </section>
-    <section id="nosotros">
-        <h2>Nosotros</h2>
-        <p>We are a company dedicated to providing the best services.</p>
+    <section id="introduccion">
+        <h2>
+            Creando Soluciones
+        </h2>
+        <h4>
+            Nuestra labor como equipo de especialistas se centra en ofrecer asesoría y propuestas novedosas para guiar a nuestros clientes en su trayectoria de crecimiento. Trabajamos junto a ellos para optimizar el manejo de sus recursos, ya sean económicos, financieros o humanos, con el objetivo no solo de alcanzar,
+            sino también de preservar de manera sostenible los resultados deseados.
+        </h4>
+        <a href="nosotros.html" class="btn btn-outline-danger">Sobre Nosotros</a>
     </section>
-    <section id="servicios">
-        <h2>Servicios</h2>
-        <p>We offer a wide range of services to meet your needs.</p>
+
+
+    <section id="nuestros_servicios">
+        <h2>Nuestros Servicios</h2>
+        <div id ="tarjetas">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card text-bg-dark">
+                    <div class="card-body">
+                      <h5 class="card-title">Contabilidad</h5>
+                      <p class="card-text">Optimiza tus operaciones contables para garantizar 
+                        la precisión y eficiencia en la gestión financiera de tu empresa.
+                      </p>
+                      <a href="#" class="btn btn-outline-danger">Leer más</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card text-bg-dark">
+                    <div class="card-body">
+                      <h5 class="card-title">Asesoramiento y Consultoría</h5>
+                      <p class="card-text">Impulsa la innovación y el crecimiento de tu empresa
+                         con estrategias de consultoría personalizadas y efectivas.
+                      </p>
+                      <a href="#" class="btn btn-outline-danger">Leer más</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card text-bg-dark">
+                    <div class="card-body">
+                      <h5 class="card-title">Societario</h5>
+                      <p class="card-text">Simplifica la gestión de tu empresa con nuestros 
+                        servicios especializados en asuntos societarios.</p>
+                      <a href="#" class="btn btn-outline-danger">Leer más</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card text-bg-dark">
+                    <div class="card-body">
+                      <h5 class="card-title">Laboral</h5>
+                      <p class="card-text">Asegura una gestión laboral eficiente y conforme 
+                        a la normativa con nuestros servicios especializados.</p>
+                      <a href="#" class="btn btn-outline-danger">Leer más</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                   <!-- Esta tarjeta esta vacia para el espacio -->
+                </div>
+                <div class="col">
+                    <div class="card text-bg-dark">
+                      <div class="card-body">
+                        <h5 class="card-title">Tributación</h5>
+                        <p class="card-text">Optimiza tu carga fiscal y asegura el 
+                            cumplimiento con nuestras soluciones en tributación.</p>
+                        <a href="#" class="btn btn-outline-danger">Leer más</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+        </div>
     </section>
     <section id="contacto">
         <h2>¿Querés contactarte con nosotros?</h2>
         <p>Podes elegir diferentes opciones de contacto.</p>
-        <a href="contacto.html" class="btn">Solicitar nuestros servicios</a>
-        <a href="*" class="btn">¿Querés trabajar con nosotros?</a>
-        <a href="*" class="btn">Escribinos por WhatsApp</a>
-
-
+        <a href="contacto.html" class="btn btn-outline-danger">Solicitar nuestros servicios</a>
+        <a href="mailto:busquedasecpa@gmail.com" class="btn btn-outline-danger">¿Querés trabajar con nosotros?</a>
+        <a href="*" class="btn btn-outline-danger">Escribinos por WhatsApp</a>
     </section>
 </body>
-<!-- <footer>
-    <p>&copy; 2025 Your Company. All rights reserved.</p>
-</footer> -->
 </html>

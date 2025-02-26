@@ -3,6 +3,20 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: rgb(121, 118, 114);
+}
+
+.inicio{
+    background-image: url('css/IMG_2577.jpg'); /* Cambia esto por la URL de tu imagen */
+    background-size: cover; /* La imagen cubre toda la pantalla */
+    background-position: center top; /* Se mantiene en la parte superior */
+    background-attachment: fixed; /* Se queda fija al hacer scroll */
+}
+
+.contenido {
+    height: 200vh; /* Hace la página más larga para ver el efecto */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente para leer mejor */
+    padding: 20px;
 }
 
 header {
@@ -57,3 +71,4 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
