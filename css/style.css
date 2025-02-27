@@ -25,6 +25,13 @@ header {
     padding: 1rem 0;
 }
 
+.fa-solid{
+    height: fit-content;
+}
+
+.iniciocompleto{
+    background-image: url('css/IMG_2577.jpg'); /* Cambia esto por la URL de tu imagen */
+}
 
 nav ul {
     list-style: none;
@@ -68,7 +75,9 @@ footer {
     text-align: center;
     padding: 1rem 0;
     position: fixed;
-    width: 100%;
     bottom: 0;
+    width: 100%;
+    transform: translateY(100%); /* Oculto inicialmente */
+    transition: transform 0.3s ease-in-out;
 }
 
