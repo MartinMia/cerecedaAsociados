@@ -1,13 +1,13 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 2rem;
     box-sizing: border-box;
     background-color: rgb(121, 118, 114);
+    width: auto;
 }
 
 .inicio{
-    background-image: url('css/IMG_2577.jpg'); /* Cambia esto por la URL de tu imagen */
     background-size: cover; /* La imagen cubre toda la pantalla */
     background-position: center top; /* Se mantiene en la parte superior */
     background-attachment: fixed; /* Se queda fija al hacer scroll */
@@ -31,6 +31,29 @@ header {
 
 .iniciocompleto{
     background-image: url('css/IMG_2577.jpg'); /* Cambia esto por la URL de tu imagen */
+}
+
+nav {
+    background: rgba(0, 0, 0, 0.5); /* Negro con 50% de opacidad */
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    backdrop-filter: blur(10px); /* Efecto de desenfoque */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.transparent {
+    background: transparent;
+}
+
+.solid {
+    background: rgba(0, 0, 0, 0.8);
 }
 
 nav ul {
@@ -70,14 +93,15 @@ section {
 }
 
 footer {
+    position: sticky;
+    left: 0;
     background: #333;
-    color: #fff;
+    color: white;
     text-align: center;
-    padding: 1rem 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    transform: translateY(100%); /* Oculto inicialmente */
-    transition: transform 0.3s ease-in-out;
+    padding: 10px;
+    width: auto;
 }
 
+.presentacion{
+    text-decoration: solid;
+}
