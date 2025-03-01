@@ -105,3 +105,8 @@ footer {
 .presentacion{
     text-decoration: solid;
 }
+
+.img-fluid{
+    object-fit: cover; /* Recorta la imagen para llenar el contenedor */
+  object-position: center; /* Ajusta qué parte de la imagen se muestra */
+}
