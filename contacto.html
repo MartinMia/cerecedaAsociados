@@ -26,19 +26,65 @@
             </nav>
           </header>
       
-    <section id="contacto">
-        <h1>Contacto</h1>
-        <p>Para cualquier consulta, por favor completa el siguiente formulario:</p>
-        <form>
-            <label for="name">Nombre:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Correo Electrónico:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Mensaje:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Enviar</button>
-        </form>
+    <section id="contacto" style="margin-bottom:50px; text-align: left;">
+        <div class="card text-bg-dark">
+            <!-- <img class="img-fluid" src="css/Pagina web/IMG_32-scaled.jpg" alt="pc" style="width:auto;height:900px;opacity: 0.6">  -->
+            <div class="card-img-overlay">
+                <h1 style="font-size: 30px; color: rgb(193, 33, 33);"><strong>Contacto</strong></h1>
+
+            </div>
+        </div>
     </section>
+
+    <div class="row">
+        <div class="col-6">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3400.3720658165744!2d-68.51818632509519!3d-31.54140217420427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96816989aa2a7887%3A0x26c7d8f4dbc02beb!2sCereceda%20%26%20Asoc.!5e0!3m2!1ses-419!2sar!4v1740873613190!5m2!1ses-419!2sar" 
+                width="600"
+                height="450"
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy"
+               referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+
+        <div class="col-6">
+            <section>
+                <h1 style="font-size: 30px; color: rgb(193, 33, 33);text-align: left;"><strong>¿Hablamos?</strong></h1>
+                <p style="text-align: left;">
+                    Estamos aquí para ayudarte a alcanzar tus objetivos y mantener el crecimiento de tu empresa de manera sustentable. No dudes en ponerte en contacto con nosotros para más información sobre nuestros servicios y cómo podemos colaborar juntos.
+                </p>
+            </section>
+            <section style="text-align: center;">
+                    
+            <form>
+                <div class="mb-3" style="text-align: center;">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+
+                </div>
+                <div class="mb-3" style="text-align: center;">
+                    <label for="cellphone">Telefono:</label>
+                    <input type="text" id="cellphone" name="cellphone" required>
+
+                </div>
+                <div class="mb-3" style="text-align: center;">
+                    <label for="email">Correo:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                </div>
+                <div class="mb-3">
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <div class="mb-3">
+                    <button type="submit" class="btn btn-link"><a href="mailto:serviciosimpositivosr@gmail.com">Enviar</a></button>
+                </div>    
+            </form>
+            </section>
+        </div>
+    </div>
 
     <footer class="footer">
 
