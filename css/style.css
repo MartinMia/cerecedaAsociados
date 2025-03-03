@@ -78,6 +78,14 @@ section {
     text-align: center;
 }
 
+.tarjetaPresentacion{
+    background-image: url('tu-imagen.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+
 #home {
     background: #f4f4f4;
     padding: 4rem 2rem;
@@ -93,13 +101,13 @@ section {
 }
 
 footer {
-    position: sticky;
+    position: absolute;
     left: 0;
     background: #333;
     color: white;
     text-align: center;
-    padding: 10px;
-    width: auto;
+    /* padding: 10px; */
+    width: 100%;
 }
 
 .presentacion{
