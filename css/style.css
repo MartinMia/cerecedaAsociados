@@ -106,7 +106,6 @@ footer {
     background: #333;
     color: white;
     text-align: center;
-    /* padding: 10px; */
     width: 100%;
 }
 
@@ -117,4 +116,24 @@ footer {
 .img-fluid{
     object-fit: cover; /* Recorta la imagen para llenar el contenedor */
   object-position: center; /* Ajusta qué parte de la imagen se muestra */
+}
+
+.listaCustom{
+    list-style: none; /* Oculta los puntos predeterminados */
+    padding-left: 0; /* Ajusta el espaciado */
+}
+
+.listaCustom li{
+    position: relative;
+            padding-left: 25px; /* Espacio para el icono */
+}
+
+.listaCustom li::before{
+    content: "\f058"; /* Código del icono Font Awesome (fa-check-circle) */
+    font-family: "Font Awesome 6 Free"; /* Asegura que Font Awesome se cargue */
+    font-weight: 900; /* Necesario para algunos íconos */
+    position: absolute;
+    left: 0;
+    color: rgb(193, 33, 33); /* Cambia el color del icono */
+    font-size: 16px;
 }
