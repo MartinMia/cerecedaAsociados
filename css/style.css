@@ -85,9 +85,6 @@ nav ul li a {
     text-decoration: none;
 }
 
-.navbar-toggler {
-  }
-
 .transparent {
     background: transparent;
 }
@@ -108,11 +105,6 @@ section {
     background-position: center;
     width: 100vw;
     height: 100vh;
-}
-
-#home {
-    background: #f4f4f4;
-    padding: 4rem 2rem;
 }
 
 .section-title{
@@ -174,6 +166,10 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width:auto;
+    height:auto;
+    margin: 0 auto;
+    background-size: cover
 }
 
 #nosotrosImagen{
@@ -188,25 +184,20 @@ footer {
 .nosotrosTitle{
     color: rgb(194, 194, 194); 
     font-size: 70px;
+    margin-bottom: 30px;
 }
 
 
 #nosotrosCardTitle{
     color: rgb(194, 194, 194);
     margin-bottom: 50px; 
-    font-size: 55px;
+    font-size: 54px;
 }
 
 #nosotrosCardIcon{
     color: rgb(194, 194, 194);
     font-size: 80px;
-    margin-bottom: 50px
-}
-
-#trayectoriaCardIcon{
-    color: rgb(194, 194, 194);
-    font-size: 80px;
-    margin-bottom: 50px
+    margin-bottom: 50px;
 }
 
 #nosotrosDescripcion{
@@ -215,22 +206,16 @@ footer {
     font-size: 30px;
 }
 
-#trayectoriaDescripcion{
-    color: rgb(194, 194, 194);
-    text-align: center;
-    font-size: 30px;
-}
-
 #expertizCardBody{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 #equipoCardBody{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 #trayectoriaCard{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 
@@ -330,6 +315,11 @@ footer {
         height: 100%;
     }
 
+    section {
+        padding: 3rem;
+        text-align: center;
+    }
+
     /* Section Enfoque */
 
     #sectionEnfoque{
@@ -351,38 +341,41 @@ footer {
 
     #porqueNosotros{
         display: flex;
-        flex-direction: column;
-        gap: 20px;
+        clear: both;
+        flex-direction: row;
+        gap: 30px;
+        text-align: center;
     }
 
     #tarjetasNosotros{
-        background-color: rgb(32, 32, 32);
-        width:auto;
-        height:auto;
         margin: 0 auto;
-        background-size: cover
+        padding: 0.5rem;
     }
 
-    #nosotrosFondo{
-        background-color: black;
 
+    #tarjetasLlenas{
+        display: flex;
+        background-size: cover;
+        margin-top: 50px;
+        padding: 0.5rem;
     }
 
     #nosotrosImagen{
-        background: none;
-        opacity: 0;
+        visibility: hidden;
     }
 
     .nosotrosTitle{
+        margin-top: 10px;
         color: rgb(194, 194, 194); 
         font-size: 50px;
+        text-align: center;
     }
 
 
     #nosotrosCardTitle{
         color: rgb(194, 194, 194);
         margin-bottom: 50px; 
-        font-size: 55px;
+        font-size: 45px;
     }
 
     #nosotrosCardIcon{
@@ -409,8 +402,8 @@ footer {
         margin-top: 50px;
     }
 
-
     /* Section Contacto */
+
     #imagenContacto{
         visibility: hidden;
     }
