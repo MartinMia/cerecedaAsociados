@@ -365,22 +365,17 @@ iframe{
         text-align: center;
     }
 
-    
-/* #porqueNosotros{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width:auto;
-    height:auto;
-    margin: 0 auto;
-    background-size: cover;
-} */
-
     #tarjetasLlenas{
         display: flex;
         overflow: auto;
  
     }
+
+    #nosotrosFondo{
+        width: auto;
+        height: 100%;
+    }
+    
 
     #nosotrosImagen{
         visibility: hidden;
