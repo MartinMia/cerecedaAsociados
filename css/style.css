@@ -169,7 +169,7 @@ footer {
     width:auto;
     height:auto;
     margin: 0 auto;
-    background-size: cover
+    background-size: cover;
 }
 
 #nosotrosImagen{
@@ -356,21 +356,38 @@ iframe{
 
     #porqueNosotros{
         display: flex;
+        flex-direction: column;
+        background-size: cover;
+        gap: 20px;
         clear: both;
         flex-direction: row;
-        /* gap: 30px; */
+        overflow: auto;
         text-align: center;
     }
 
+    
+/* #porqueNosotros{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width:auto;
+    height:auto;
+    margin: 0 auto;
+    background-size: cover;
+} */
+
     #tarjetasLlenas{
         display: flex;
-        background-size: cover;
+        overflow: auto;
  
     }
 
     #nosotrosImagen{
         visibility: hidden;
-        height: max-content;
+        display: flex;
+        overflow: auto;
+        width: auto;
+        height: 100%;
     }
 
     .nosotrosTitle{
