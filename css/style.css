@@ -373,9 +373,12 @@ iframe{
 
     #nosotrosFondo{
         width: auto;
-        height: 100%;
+        height: auto;
     }
     
+    .card-img-overlay img {
+        visibility: hidden;
+    }
 
     #nosotrosImagen{
         visibility: hidden;
