@@ -183,7 +183,7 @@ footer {
     opacity: 0.6;
 }
 
-.nosotrosTitle{
+#nosotrosTitle{
     color: rgb(194, 194, 194); 
     font-size: 70px;
     margin-bottom: 30px;
@@ -388,7 +388,7 @@ iframe{
         height: 100%;
     }
 
-    .nosotrosTitle{
+    #nosotrosTitle{
         color: rgb(194, 194, 194); 
         font-size: 50px;
         text-align: center;
