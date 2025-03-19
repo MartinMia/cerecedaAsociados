@@ -160,6 +160,12 @@ footer {
     color: rgb(193, 33, 33); 
 }
 
+#seccionNosotros{
+    margin-bottom:100px; 
+    text-align: center;
+}
+
+
 /* Section Por qué Nosotros? */
 
 #porqueNosotros{
@@ -196,7 +202,7 @@ footer {
 #nosotrosCardTitle{
     color: rgb(194, 194, 194);
     margin-bottom: 50px; 
-    font-size: 54px;
+    font-size: 47px;
 }
 
 #nosotrosCardIcon{
@@ -219,7 +225,7 @@ footer {
     margin-top: 50px;
 }
 
-#trayectoriaCard{
+#trayectoriaCardBody{
     margin-top: 50px;
 }
 
@@ -357,11 +363,7 @@ iframe{
     #porqueNosotros{
         display: flex;
         flex-direction: column;
-        background-size: cover;
         gap: 20px;
-        clear: both;
-        flex-direction: row;
-        overflow: auto;
         text-align: center;
     }
 
@@ -397,7 +399,7 @@ iframe{
 
     #nosotrosCardTitle{
         color: rgb(194, 194, 194);
-        font-size: 30px;
+        font-size: 27px;
         margin-bottom: 0; 
     }
 
@@ -416,6 +418,7 @@ iframe{
     
     #expertizCardBody{
         margin-top: 0;
+        
     }
 
     #equipoCardBody{
@@ -450,6 +453,11 @@ iframe{
     }
 
     /* Seccion Nosotros */
+
+    #seccionNosotros{
+        margin-bottom:50px; 
+        text-align: center;
+    }
 
     #imagenPaginaNosotros{
         visibility: hidden;
