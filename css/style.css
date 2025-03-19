@@ -34,8 +34,7 @@ body {
 #botonContactoInicio{
     font-size: 25px ;
     margin-top: 50px;
-    margin-left: 50px;
-    height: fit-content;
+    height: max-content;
 }
 
 #imagenInicial{
@@ -271,8 +270,7 @@ iframe{
     #botonContactoInicio{
         font-size: 20px ;
         margin-top: 50px;
-        margin-left: auto;
-        align-items: center;
+        height: max-content;
     }
 
     #imagenInicial{
