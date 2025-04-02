@@ -434,8 +434,8 @@ iframe{
     }
 
     #quienesSomos{
-        font-size: 36px;
-        text-align: left;
+        font-size: 42px;
+        text-align: center;
     }
 
     /* Section Por qué Nosotros? */
@@ -479,8 +479,9 @@ iframe{
 
     #nosotrosCardTitle{
         color: rgb(194, 194, 194);
-        font-size: 27px;
-        margin-bottom: 0; 
+        font-size: 21px;
+        margin-top: 8px; 
+        margin-bottom: 8px; 
     }
 
     #nosotrosCardIcon{
@@ -505,7 +506,7 @@ iframe{
         margin-top: 0;
     }
 
-    #trayectoriaCard{
+    #trayectoriaCardBody{
         margin-top: 0;
     }
 
