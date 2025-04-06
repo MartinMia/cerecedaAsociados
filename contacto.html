@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
-
+    <script src="js/base.js"></script>
 
 </head>
 <body>
@@ -58,30 +58,39 @@
         </p>
     </section>
         
-            <form class="container mt-4">
-                <div class="mb-3">
-                    <label class="form-label" for="name"> <strong>Nombre:</strong> </label>
-                    <input class="form-control" type="text" id="name" name="name" placeholder="Nombre" required>
-
-                </div>
-                <div class="mb-3">
-                    <label class="form-label" for="cellphone"><strong>Telefono:</strong> </label>
-                    <input class="form-control" type="text" id="cellphone" name="cellphone" placeholder="Telefono" required>
-
-                </div>
-                <div class="mb-3" >
-                    <label class="form-label" for="email"><strong>Correo:</strong> </label>
-                    <input class="form-control" type="email" id="email" name="email" placeholder="name@example.com" required>
-                    
-                </div>
-                <div class="mb-3">
-                    <label class="form-label" for="message"><strong>Mensaje:</strong> </label>
-                    <textarea class="form-control" id="message" name="message" placeholder="Mensaje" required></textarea>
-                </div>
-                <div class="mb-3">
-                    <button type="submit" class="btn btn-link"><a href="mailto:serviciosimpositivosr@gmail.com">Enviar</a></button>
-                </div>    
-            </form>
+    <form class="container mt-4" action="https://formsubmit.co/serviciosimpositivosr@gmail.com" method="post">
+        <input type="hidden" name="_captcha" value="false">
+    
+        <div class="mb-3">
+            <label class="form-label" for="name"><strong>Nombre:</strong></label>
+            <input class="form-control" type="text" id="name" name="name" placeholder="Nombre" required>
+        </div>
+    
+        <div class="mb-3">
+            <label class="form-label" for="cellphone"><strong>Teléfono:</strong></label>
+            <input class="form-control" type="text" id="cellphone" name="cellphone" placeholder="Teléfono" required>
+        </div>
+    
+        <div class="mb-3">
+            <label class="form-label" for="email"><strong>Correo:</strong></label>
+            <input class="form-control" type="email" id="email" name="email" placeholder="name@example.com" required>
+        </div>
+    
+        <div class="mb-3">
+            <label class="form-label" for="subject"><strong>Asunto:</strong></label>
+            <input class="form-control" type="text" id="subject" name="subject" placeholder="Asunto" required>
+        </div>
+    
+        <div class="mb-3">
+            <label class="form-label" for="message"><strong>Mensaje:</strong></label>
+            <textarea class="form-control" id="message" name="message" placeholder="Mensaje" required></textarea>
+        </div>
+    
+        <div class="mb-3">
+            <input type="submit" class="btn btn-primary" value="Enviar">
+        </div>    
+    </form>
+    
 
         <div class="row">
             <iframe 
@@ -130,7 +139,7 @@
             </div>
             <div class="col">
                 <h2 style="font-size: medium; text-align: right;">
-                    <p>&copy; 2024 Cereceda & Asociados.</p>
+                    <p id="añoActual"></p>
                     <p>Todos los derechos reservados.</p>
                 </h2>
             </div>
